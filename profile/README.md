@@ -149,31 +149,9 @@ All contracts are deployed on **Base Sepolia Testnet** (Chain ID: 84532)
 - **Required Confirmations**: 3 blocks
 
 ## Project Structure
-
-```
-onecal/
-├── contract/                 # Smart contracts
-│   ├── src/                 # Contract source code
-│   │   ├── BookingManager.sol
-│   │   ├── MentorRegistry.sol
-│   │   ├── MockIDRX.sol
-│   │   ├── MinimalForwarder.sol
-│   │   └── v1/             # Enhanced contract versions
-│   ├── script/             # Deployment scripts
-│   └── out/                # Compiled artifacts
-├── platform/                # Frontend application
-│   ├── src/
-│   │   ├── routes/         # TanStack Router routes
-│   │   ├── contracts/      # Contract interfaces
-│   │   ├── hooks/          # Custom React hooks
-│   │   ├── lib/            # Utilities
-│   │   └── components/     # UI components
-│   └── drizzle/            # Database schema
-└── infrastructure/         # DevOps configuration
-    ├── docker-compose.yml
-    ├── relayer-config/     # OpenZeppelin relayer
-    └── monitor-config/     # Health monitoring
-```
+- [Platform Repository](https://github.com/0xCAL-Platform/platform)
+- [Smart Contract Repository](https://github.com/0xCAL-Platform/contract)
+- [Relayer Repository](https://github.com/0xCAL-Platform/relayer)
 
 ## Version History
 
